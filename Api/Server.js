@@ -10,7 +10,7 @@ const port = process.env.PORT || 4000;
 // Middleware
 
 app.use(cors({
-  origin: "https://personal-portfolio-qwpf.vercel.app",
+  origin: "https://new-personal-portfolio-beta.vercel.app/",
   methods: ["POST","GET"],
   credentials: true
 }));
