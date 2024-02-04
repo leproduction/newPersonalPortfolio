@@ -7,8 +7,8 @@ export default function LandingPage() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [tel, setTel] = useState('');
-  const [toggle,setToggle]= useState(true)
-
+  const [toggle,setToggle]= useState(true);
+  const [info, setInfo]=useState("");
   axios.defaults.withCredentials = true;
 
   const handleSubmit = async (e) => {
@@ -23,11 +23,14 @@ export default function LandingPage() {
 
       if (response.status === 200) {
         console.log("Submitted Successfully All information");
+        setInfo("Submitted Successfully");
       } else {
         console.log("server Error");
+        setInfo("Server Error");
       }
     } catch (error) {
       console.log("submission problems", error);
+      setInfo("Submission Problems");
     }
 
     setEmail('');
@@ -39,6 +42,8 @@ export default function LandingPage() {
     toggle?
     <Container className='vw-50 vh-50 p-1'>    <Container style={{backgroundImage:`url('https://images.pexels.com/photos/5278747/pexels-photo-5278747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`}} fluid className=' border border-info position-absolute vw-50 vh-50  top-50 start-50 translate-middle shadow'>
     <Button onClick={()=>setToggle(!toggle)} variant="outline-light position-absolute top-0 start-0">X</Button>
+  <br></br>
+    <Row><h1>{info}</h1></Row>
       <Form onSubmit={handleSubmit} className=' p-4 rounded' variant="outline-dark mx-auton">
         <Form.Label className='text-light'>Feel free to leave your contact below. I will get back to you ASAP!</Form.Label>
         <Form.Group controlId="formName">
