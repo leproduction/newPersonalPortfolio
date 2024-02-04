@@ -44,7 +44,7 @@ export default function NavBarComponent() {
                 Contact
               </NavDropdown.Item>
 
-              <NavDropdown.Item onMouseEnter={handleHover} className={`${color}`} onMouseLeave={handleUnhover}  href="https://drive.google.com/file/d/1gaDf1dJm21aydqX9qWDVh0EkQj4NmI13/view?usp=sharing" target='_blank' download>
+              <NavDropdown.Item onMouseEnter={handleHover} className={`${color}`} onMouseLeave={handleUnhover}  href="https://docs.google.com/document/d/154UAckgEpiNrtL6Ap5_nnvfmQTzsM2WnhEt0w9tmA9U/edit?usp=sharing" target='_blank' download>
             Resume </NavDropdown.Item>
             </NavDropdown>
           </Nav>
