@@ -8,7 +8,7 @@ export default function LandingPage() {
   const [name, setName] = useState('');
   const [tel, setTel] = useState('');
   const [toggle,setToggle]= useState(true);
-  const [info, setInfo]=useState("");
+  const [info, setInfo]= useState("");
   axios.defaults.withCredentials = true;
 
   const handleSubmit = async (e) => {
