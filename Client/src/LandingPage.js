@@ -22,7 +22,7 @@ export default function LandingPage() {
       });
 
       if (response.status === 200) {
-        console.log("Submit All information");
+        console.log("Submitted Successfully All information");
       } else {
         console.log("server Error");
       }
