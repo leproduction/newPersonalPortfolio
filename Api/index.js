@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 })
 app.post('/submit', (req, res) => {
     const {name, email, tel} = req.body;
-    RegisterModel.findOne({name: name})
+    RegisterModel.findOne({email: email})
     .then(user => {
         if(user) {
             res.json("Already submitted")
