@@ -20,7 +20,7 @@ mongoose.connect('mongodb+srv://portfolio:port@portfolio.rsdq3hc.mongodb.net/?re
 app.get("/", (req, res) => {
     res.json("Information");
 })
-app.post('/submitinformation', (req, res) => {
+app.post('/submit', (req, res) => {
     const {name, email, tel} = req.body;
     RegisterModel.findOne({email: email})
     .then(user => {
