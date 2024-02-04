@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Container, Form } from 'react-bootstrap';
+import { Button, Container, Form, Row } from 'react-bootstrap';
 import axios from 'axios';
 
 export default function LandingPage() {
