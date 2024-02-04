@@ -16,8 +16,8 @@ export default function LandingPage() {
 
     try {
       const response = await axios.post('https://new-personal-portfolio-youh.vercel.app/submit', {
-        email,
         name,
+        email,
         tel
       });
 
@@ -32,9 +32,8 @@ export default function LandingPage() {
       console.log("submission problems", error);
       setInfo("Submission Problems");
     }
-
-    setEmail('');
     setName('');
+    setEmail('');
     setTel();
   };
 
