@@ -15,7 +15,7 @@ export default function LandingPage() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://new-personal-portfolio-youh.vercel.app/submitinformation', {
+      const response = await axios.post('https://new-personal-portfolio-youh.vercel.app/submit', {
         email,
         name,
         tel
