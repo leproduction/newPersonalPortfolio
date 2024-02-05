@@ -6,7 +6,7 @@ export default function DownloadLinkPage () {
 
 
     <button className="button">
-       <a href="https://drive.google.com/file/d/1gaDf1dJm21aydqX9qWDVh0EkQj4NmI13/view?usp=sharing" download="HLResume.pdf">Download</a>
+       <a href="https://docs.google.com/document/d/154UAckgEpiNrtL6Ap5_nnvfmQTzsM2WnhEt0w9tmA9U/edit?usp=sharing" download="HLResume.pdf">Download</a>
     </button>
   )
 }
