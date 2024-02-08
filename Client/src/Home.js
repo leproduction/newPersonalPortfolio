@@ -15,7 +15,7 @@ import LandingPage from './LandingPage.js';
 function Home() {
 
   return (
-    <Container fluid align="center" className=" flex shadow px-5 py-1 rounded " style={{ background: 'rgba(189,195,199, 0.8)' }}>
+    <Container fluid align="center" className=" flex shadow px-1 py-1 rounded " style={{ background: 'rgba(189,195,199, 0.8)' }}>
       <Row>
         <NavBarComponent />
       </Row>
