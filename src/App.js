@@ -8,7 +8,7 @@ import ContactEmer from './Component/Contact';
 import OpenAI from 'openai';
 import emailPromotionImage from './emailPromotion.png'
 import checkOutImage from './checkOutCart.png'
-import reviewImage from './reviewPage.png'
+import businessPage from './businessPage.png'
 
 export default function App() {
 
@@ -53,10 +53,10 @@ const handleSearchSubmit =() => {
     <p>{response}</p></Row>
   </Row>
     <Row align="center" xs={1} md={3} className='g-1 border border-warning my-1 p-4'>
-    <a style={{ textDecoration: 'none' }} href="https://reviewpage2023.web.app/">
+    <a style={{ textDecoration: 'none' }} href="https://nailsandlashes.vercel.app/">
       <Col>
        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={reviewImage} />
+          <Card.Img variant="top" src={businessPage} />
           <Card.Body>
           <Card.Title>Review Page</Card.Title>
           <Card.Text>
