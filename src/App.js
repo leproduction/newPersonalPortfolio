@@ -58,7 +58,7 @@ const handleSearchSubmit =() => {
        <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src={businessPage} />
           <Card.Body>
-          <Card.Title>Review Page</Card.Title>
+          <Card.Title>Cosmetic Business</Card.Title>
           <Card.Text>
           Spearheaded the design and development of a dynamic business webpage dedicated to showcasing customer reviews
           </Card.Text>
