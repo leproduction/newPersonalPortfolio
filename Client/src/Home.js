@@ -45,7 +45,7 @@ function Home() {
           <Col className="mx-auto">
           <motion.div whileHover={{ scale: 1.25 }}>
             <Card className='border border-light shadow p-1'>
-              <a style={{ textDecoration: 'none' }} href="https://reviewpage2023.web.app/">
+              <a style={{ textDecoration: 'none' }} href="https://nailsandlashes.vercel.app/">
                 {' '}
                 <Card.Img  variant="top" src={businessImage} />{' '}
               </a>
