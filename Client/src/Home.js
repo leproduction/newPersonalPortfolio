@@ -7,7 +7,7 @@ import ProgressiveBar from './Component/ProgressBar.js';
 import ContactEmer from './Component/Contact.js';
 import emailPromotionImage from './emailPromotion.png';
 import checkOutImage from './checkOutCart.png';
-import reviewImage from './reviewPage.png';
+import businessImage from './businessImage.png';
 
 import { motion } from 'framer-motion';
 import LandingPage from './LandingPage.js';
@@ -47,10 +47,10 @@ function Home() {
             <Card className='border border-light shadow p-1'>
               <a style={{ textDecoration: 'none' }} href="https://reviewpage2023.web.app/">
                 {' '}
-                <Card.Img  variant="top" src={reviewImage} />{' '}
+                <Card.Img  variant="top" src={businessImage} />{' '}
               </a>
               <Card.Body>
-                <Card.Title>Review Page</Card.Title>
+                <Card.Title>Cosmetic Business</Card.Title>
                 <Card.Text>Spearheaded the design and development of a dynamic business webpage dedicated to showcasing customer reviews</Card.Text>
               </Card.Body>
             </Card>
