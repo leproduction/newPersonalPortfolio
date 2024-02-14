@@ -8,7 +8,7 @@ import ContactEmer from './Component/Contact';
 import OpenAI from 'openai';
 import emailPromotionImage from './emailPromotion.png'
 import checkOutImage from './checkOutCart.png'
-import businessPage from './businessPage.png'
+import businessPage from './businessImage.png'
 
 export default function App() {
 
@@ -56,7 +56,7 @@ const handleSearchSubmit =() => {
     <a style={{ textDecoration: 'none' }} href="https://nailsandlashes.vercel.app/">
       <Col>
        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={businessPage} />
+          <Card.Img variant="top" src={businessImage} />
           <Card.Body>
           <Card.Title>Cosmetic Business</Card.Title>
           <Card.Text>
