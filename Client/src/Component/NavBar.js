@@ -51,7 +51,7 @@ export default function NavBarComponent() {
         </Navbar.Collapse>
 
         <Image
-        src="https://media.licdn.com/dms/image/D4E03AQFRPvb34ZVk0w/profile-displayphoto-shrink_200_200/0/1708539274755?e=1714608000&v=beta&t=F8lxLOm9QDgRHb7iOcTuMr1OY7v3kNsm7-ctyibNZSE"
+        src="https://media.licdn.com/dms/image/D5603AQFQHo8j6_hxWw/profile-displayphoto-shrink_400_400/0/1710528330302?e=1719446400&v=beta&t=GkxHv5D2MOYtE8y2r856gu-NsjXmdRkdH8ETIgAF47E"
         thumbnail
         roundedCircle
         width="50"
